@@ -45,5 +45,7 @@ header {
 }
 
 .hero-subtitle {
-   
+  font-weight: 400;
+    color: #74808B;
+    max-width: 42rem; 
 }
