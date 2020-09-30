@@ -123,3 +123,11 @@ header {
   top: 110%;
   left: 20%; 
 }
+
+.second_page >.sec_page >img{
+  position: absolute;
+  top: 110%;
+  left: 10%;
+  width: 80%;
+  height: 70%;
+}
