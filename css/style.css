@@ -1,7 +1,15 @@
 
-body{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
   overflow-x: hidden;
   font-weight: 400;
+  overflow-y: scroll;
 }
 
 .nav-links {
@@ -17,9 +25,12 @@ body{
   font-size: 1em;
   color: black;
   text-decoration-line: none;
+  position: absolute;
+  top: 10%;
+  z-index: 10;
 }
 
-.nav-links:hover>li>a:hover{
+.nav-links:hover > li > a:hover {
   color: blue;
 }
 
@@ -32,20 +43,39 @@ header {
   border-bottom: 0.1px solid black;
 }
 
-.flex-box{
-  position: relative;
+.flex-box {
+  position: absolute;
+  top: 10%;
   left: 65%;
 }
 
-.hero-content > h1{
+.hero-content > h1 {
   font-weight: 800;
   letter-spacing: -0.025em;
-    margin-bottom: 1rem;
-   font-size: 50px;
+  margin-bottom: 1rem;
+  font-size: 50px;
 }
 
 .hero-subtitle {
   font-weight: 400;
-    color: #74808B;
-    max-width: 42rem; 
+  color: #74808b;
+  max-width: 42rem;
+}
+
+.hero-content {
+  position: absolute;
+  top: 150px;
+  left: 15%;
+}
+
+
+.hero-subtile {
+  color: grey;
+  font-size: 25px;
+}
+
+.flex-box1 {
+  position: absolute;
+  left: 15%;
+  top: 60%;
 }
