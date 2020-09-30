@@ -45,7 +45,7 @@ header {
 
 .flex-box {
   position: absolute;
-  top: 10%;
+  top: 15%;
   left: 65%;
 }
 
@@ -56,7 +56,7 @@ header {
   font-size: 50px;
 }
 
-.hero-subtitle {
+.hero-subtile {
   font-weight: 400;
   color: #74808b;
   max-width: 42rem;
@@ -64,18 +64,58 @@ header {
 
 .hero-content {
   position: absolute;
-  top: 150px;
+  top: 30%;
   left: 15%;
 }
 
 
 .hero-subtile {
   color: grey;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .flex-box1 {
   position: absolute;
   left: 15%;
+  top: 62%;
+}
+
+.margin{
+  margin: -5px;
+}
+
+.sizeImg{
+  width: auto;
+  height: 10rem;
+}
+
+.sizeImg2{
+  width: auto;
+  height: 5rem;
+  position: absolute;
   top: 60%;
+  left: -40%;
+}
+.sizeImg3{
+  width: auto;
+  height: 10rem;
+   position: relative;
+   top: 40%;
+   left: 10%;
+}
+
+.sizeImg4{
+  width: auto;
+  height: 10rem;
+  position: absolute;
+  top: 100%;
+  left: -50%;
+}
+
+.sizeImg5{
+  width: auto;
+  height: 6rem;
+  position: absolute;
+  top: 110%;
+  left: 20%; 
 }
