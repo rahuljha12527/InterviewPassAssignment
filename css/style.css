@@ -131,3 +131,9 @@ header {
   width: 80%;
   height: 70%;
 }
+
+.flex-item{
+  display: flex;
+  justify-content: space-evenly; 
+  margin-top: 5%; 
+}
