@@ -153,3 +153,33 @@ header {
 .card-text{
   color: grey;
 }
+
+.fourth{
+  background-color: #F9FAFA !important;
+  height: 150vh;
+}
+
+.container2{
+  position: relative;
+  top: 20%;
+}
+
+.container2 >h2{
+  position: relative;
+  left: 12%;
+  font-size: 30px;
+}
+.section-description{
+  position: relative;
+  left: 12%;
+  margin: 0px;
+  font-size: 17px;
+  color: gray;
+}
+
+.container2 >img{
+  height: 75vh;
+  width: 70vw;
+  margin-top: 3%;
+  margin-left: 12%;
+}
