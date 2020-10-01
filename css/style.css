@@ -1,10 +1,8 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 body {
   overflow-x: hidden;
@@ -12,10 +10,9 @@ body {
   overflow-y: scroll;
 }
 
-section{
+section {
   height: 100vh;
   width: 100vw;
-  
 }
 .nav-links {
   list-style: none;
@@ -30,9 +27,6 @@ section{
   font-size: 1em;
   color: black;
   text-decoration-line: none;
-  position: absolute;
-  top: 10%;
-  z-index: 10;
 }
 
 .nav-links:hover > li > a:hover {
@@ -73,7 +67,6 @@ header {
   left: 15%;
 }
 
-
 .hero-subtile {
   color: grey;
   font-size: 20px;
@@ -85,31 +78,31 @@ header {
   top: 62%;
 }
 
-.margin{
+.margin {
   margin: -5px;
 }
 
-.sizeImg{
+.sizeImg {
   width: auto;
   height: 10rem;
 }
 
-.sizeImg2{
+.sizeImg2 {
   width: auto;
   height: 5rem;
   position: absolute;
   top: 60%;
   left: -40%;
 }
-.sizeImg3{
+.sizeImg3 {
   width: auto;
   height: 10rem;
-   position: relative;
-   top: 40%;
-   left: 10%;
+  position: relative;
+  top: 40%;
+  left: 10%;
 }
 
-.sizeImg4{
+.sizeImg4 {
   width: auto;
   height: 10rem;
   position: absolute;
@@ -117,25 +110,24 @@ header {
   left: -50%;
 }
 
-.sizeImg5{
+.sizeImg5 {
   width: auto;
   height: 6rem;
   position: absolute;
   top: 110%;
-  left: 20%; 
+  left: 20%;
 }
 
-.cards{
-
-  background-color: #F9FAFA !important;
+.cards {
+  background-color: #f9fafa !important;
 }
 
-.add_space{
+.add_space {
   position: relative;
   top: 20%;
 }
 
-.second_page >.sec_page >img{
+.second_page > .sec_page > img {
   position: absolute;
   top: 110%;
   left: 10%;
@@ -143,33 +135,32 @@ header {
   height: 70%;
 }
 
-.flex-item{
-
+.flex-item {
   display: flex;
-  justify-content: space-evenly; 
-  margin-top: 5%; 
+  justify-content: space-evenly;
+  margin-top: 5%;
 }
 
-.card-text{
+.card-text {
   color: grey;
 }
 
-.fourth{
-  background-color: #F9FAFA !important;
+.fourth {
+  background-color: #f9fafa !important;
   height: 150vh;
 }
 
-.container2{
+.container2 {
   position: relative;
   top: 20%;
 }
 
-.container2 >h2{
+.container2 > h2 {
   position: relative;
   left: 12%;
   font-size: 30px;
 }
-.section-description{
+.section-description {
   position: relative;
   left: 12%;
   margin: 0px;
@@ -177,7 +168,7 @@ header {
   color: gray;
 }
 
-.container2 >img{
+.container2 > img {
   height: 75vh;
   width: 70vw;
   margin-top: 3%;
