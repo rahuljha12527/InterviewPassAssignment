@@ -180,3 +180,47 @@ header {
   left: 4%;
   top: 5%;
 }
+
+.section-cta-container3{
+  position: relative;
+  top: 10%;
+  height: 60vh;
+  width: 70vw;
+  left: 15%;
+  background-color:aliceblue;
+}
+.section-cta {
+  position: relative;
+  top: 20%;
+  left: 30%;
+  
+}
+
+.section-cta >h2{
+  font-weight: 700;
+  font-size: 40px;
+  
+}
+
+.section-cta > .subtitle{
+  color: grey;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.postioning{
+  margin-left: 8%;
+}
+
+#but{
+  position: relative;
+  top:100px;
+  left: 450px;
+}
+.font-small{
+  position: relative;
+  top: 110px;
+  left: 450px;
+  font-size: 10px;
+}
